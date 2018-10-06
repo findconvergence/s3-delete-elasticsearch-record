@@ -18,4 +18,5 @@ Credit to Amit Sharma (@amitksh44) for the [original scripts](https://aws.amazon
 * All required modules are currently included in the AWS Lambda environment, except for Elasticsearch. 
 * If you need, `pip install elasticsearch -t .` inside the `delete-record` directory to update Elasticsearch locally (will install urllib as well.)
 * Run `chmod -R 755` on the entire `delete-record` directory.
-* Zip up the *contents* of the `delete-record` directory and upload file to your Lambda function.  `cd delete-record && zip -r9 ../delete-record .`
+* Zip up the *contents* of the `delete-record` directory `cd delete-record && zip -r9 ../delete-record .`
+* Upload the zip to your Lambda function.
